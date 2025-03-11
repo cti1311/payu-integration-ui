@@ -40,15 +40,13 @@ export default function MainContent({
         <div className="flex justify-between items-center mb-8">
           <div>
             <h1 className="text-3xl font-bold text-gray-900">
-              Integrate Prebuilt Library - Payment Initiation
+              Integrate server side SDKs
             </h1>
-            <p className="mt-2 text-gray-600">
-              Now that you have designed your payment page, it's time to
-              integrate the server side APIs and frontend JS code snippet.
-              Follow the steps below.
-            </p>
+            {/* <p className="mt-2 text-gray-600">
+              
+            </p> */}
           </div>
-          <Button variant="outline" className="gap-2">
+          {/* <Button variant="outline" className="gap-2">
             <svg
               width="20"
               height="20"
@@ -65,7 +63,7 @@ export default function MainContent({
               />
             </svg>
             Contact Support
-          </Button>
+          </Button> */}
         </div>
 
         {/* Clickable Horizontal Stepper */}
@@ -74,7 +72,7 @@ export default function MainContent({
             <Step completed={activeStep > 0}>
               <StepButton onClick={() => handleStepClick(0)}>
                 <div className="text-sm font-medium text-green-700">
-                  Get Credentials
+                  Get Key and Salt
                 </div>
               </StepButton>
             </Step>

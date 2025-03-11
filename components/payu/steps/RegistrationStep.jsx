@@ -7,13 +7,13 @@ import { ExternalLink, Key, Copy, AlertCircle } from "lucide-react";
 export default function RegistrationStep({ handleNext }) {
   return (
     <div>
-      <h2 className="text-xl font-bold mb-4">Step 1: Get Your API Credentials</h2>
+      <h2 className="text-xl font-bold mb-4">Step 1: Get Your KEY and SALT</h2>
       
       <Alert className="mb-4">
         <AlertCircle className="h-4 w-4" />
         <AlertTitle>Important</AlertTitle>
         <AlertDescription>
-          You need API credentials before proceeding with integration.
+          You need key and salt before proceeding with integration.
         </AlertDescription>
       </Alert>
       
@@ -30,13 +30,13 @@ export default function RegistrationStep({ handleNext }) {
               </a>
             </li>
             <li>
-              Switch to <strong>Test Mode</strong> from the toggle on the menu bar
+              Switch to <strong>Test Mode</strong> from the toggle on the menu bar for testing
             </li>
             <li>
               Select <strong>Developer</strong> from the menu and go to the <strong>API Details</strong> tab
             </li>
             <li>
-              Copy your <strong>Key</strong>, <strong>Salt-32 bit</strong>, and <strong>Salt-256 bit</strong>
+              Copy your <strong>Key</strong>, and <strong>Salt</strong>
             </li>
           </ol>
         </div>
